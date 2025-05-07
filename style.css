@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #e3f2fd;
+    margin: 0; 
+  }
+  
+  /* Heading Styles */
+  h1, h2 {
+    color: #333;
+  }
+  
+  /* About Me Section */
+  #aboutMe {
+    margin-bottom: 30px;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid transparent;
+  }
+  
+  button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  #gallery {
+    width: 100%;
+    max-width: 600px; 
+    height: auto; 
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+  }
+  /* Hover Div Styles */
+  #hoverDiv {
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #eee;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+  }
+  
+  #hoverDiv:hover {
+    background-color: #ddd; /* Subtle hover effect */
+  }
+  
+  /* Tab Content Styles */
+  .tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Form Styles */
+  form {
+    margin-top: 30px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    margin: 5px;
+    width: 220px; /* Slightly wider inputs */
+    margin-bottom: 20px;
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border color */
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #4CAF50; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  input:invalid {
+    border-color: red;
+  }
+  
+  /* Fade-in Animation */
+  .fadeIn {
+    animation: fadeIn 1s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
